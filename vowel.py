@@ -1,0 +1,10 @@
+c=input("enter a character")
+l=len(c)
+c=c.lower()
+if l>1:
+    print("more than one character")
+else:
+    if c=='a' or c=='e' or c=='i' or c=='o' or c=='u':
+        print("it is a vowel")
+    else:
+        print("it is a consonant")
